@@ -11,7 +11,11 @@ def multiplication(a, b):
 
 
 def deletion(a, b):
-    print(f'Умножение: {a} / {b} = ', a / b)
+    try:
+        c = a / b
+        print(f'Деление: {a} / {b} = ', c)
+    except ZeroDivisionError:
+        print("На ноль делить нельзя  !!!!")
 
 
 # плюс
@@ -29,4 +33,4 @@ multiplication(4, 7)
 
 # деление
 deletion(3, 1)
-deletion(4, 2)
+deletion(4, 0)
