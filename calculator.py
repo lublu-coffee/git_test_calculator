@@ -5,6 +5,7 @@ def plus(a, b):
 def minus(a, b):
     print(f'Разность: {a} - {b} = ', a - b)
 
+
 def multiplication(a, b):
     print(f'Умножение: {a} * {b} = ', a * b)
 
@@ -16,3 +17,7 @@ plus(4, 5)
 # минус
 minus(3, 1)
 minus(4, 2)
+
+# умножение
+multiplication(5, 1)
+multiplication(4, 7)
