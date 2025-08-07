@@ -10,14 +10,9 @@ def multiplication(a, b):
     print(f'Умножение: {a} * {b} = ', a * b)
 
 
-# плюс
-plus(2, 3)
-plus(4, 5)
+a = int(input('Введите 1 число : '))
+b = int(input('Введите 2 число : '))
 
-# минус
-minus(3, 1)
-minus(4, 2)
-
-# умножение
-multiplication(5, 1)
-multiplication(4, 7)
+plus(a, b)
+minus(a, b)
+multiplication(a, b)
