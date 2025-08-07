@@ -10,6 +10,10 @@ def multiplication(a, b):
     print(f'Умножение: {a} * {b} = ', a * b)
 
 
+def deletion(a, b):
+    print(f'Умножение: {a} / {b} = ', a / b)
+
+
 # плюс
 plus(2, 3)
 plus(4, 5)
@@ -21,3 +25,8 @@ minus(4, 2)
 # умножение
 multiplication(5, 1)
 multiplication(4, 7)
+
+
+# деление
+deletion(3, 1)
+deletion(4, 2)
