@@ -18,19 +18,10 @@ def deletion(a, b):
         print("На ноль делить нельзя  !!!!")
 
 
-# плюс
-plus(2, 3)
-plus(4, 5)
+a = int(input('Введите 1 число : '))
+b = int(input('Введите 2 число : '))
 
-# минус
-minus(3, 1)
-minus(4, 2)
-
-# умножение
-multiplication(5, 1)
-multiplication(4, 7)
-
-
-# деление
-deletion(3, 1)
-deletion(4, 0)
+plus(a, b)
+minus(a, b)
+multiplication(a, b)
+deletion(a, b)
