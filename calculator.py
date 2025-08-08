@@ -17,6 +17,13 @@ def deletion(a, b):
     except ZeroDivisionError:
         print("На ноль делить нельзя  !!!!")
 
+def deletion_ostatok(a, b):
+    try:
+        c = a % b
+        print(f'Деление с остатком: {a} % {b} = ', c)
+    except ZeroDivisionError:
+        print("На ноль делить нельзя  !!!!")
+
 
 a = int(input('Введите 1 число : '))
 b = int(input('Введите 2 число : '))
