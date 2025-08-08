@@ -25,6 +25,15 @@ class Calculator:
     def minus(self):
         self.print_result('Разность', self.__a - self.__b)
 
+    def multiplication(self):
+        self.print_result('Умножение', self.__a * self.__b)
+
+    def deletion(self):
+        try:
+            self.print_result('Деление', self.__a / self.__b)
+        except ZeroDivisionError:
+            print("На ноль делить нельзя  !!!!")
+
     def print_result(self, action, result):
         print(f'{action}: {self.__a} и {self.__b} = ', result)
 
