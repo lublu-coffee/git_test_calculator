@@ -41,3 +41,5 @@ class Calculator:
 z = Calculator(2, 3)
 z.plus()
 z.minus()
+z.multiplication()
+z.deletion()
